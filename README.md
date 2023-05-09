@@ -2,7 +2,8 @@
 
 ## How it works
 
-First of all, activate the virtual environment:
+First of all install python if it's not already installed (<https://www.python.org/downloads/>).
+Then create and activate the virtual environment:
 
 ```shell
 ~:$ python3 -m venv ./vcat-env

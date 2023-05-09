@@ -5,7 +5,14 @@
 First of all, activate the virtual environment:
 
 ```shell
+VIRTUALCAT-SERVER:$ pip3 install python-dotenv
 VIRTUALCAT-SERVER:$ source bin/activate
+```
+
+Install the requirements:
+
+```shell
+VIRTUALCAT-SERVER:$ pip install -r requirements.txt
 ```
 
 Then start the webserver:

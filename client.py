@@ -1,10 +1,8 @@
-import requests, random
 from fastapi import FastAPI
 
 app = FastAPI()
 
 url = "localhost:8001/pet"
-random.seed()
 
 @app.get("/")
 def read_root():

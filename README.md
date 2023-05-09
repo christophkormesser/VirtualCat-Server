@@ -9,10 +9,16 @@ VIRTUALCAT-SERVER:$ python3 -m venv ./VirtualCat-Server
 VIRTUALCAT-SERVER:$ source bin/activate
 ```
 
+Clone the repo to the newly created environment
+
+```shell
+(VirtualCat-Server) VIRTUALCAT-SERVER:$ git clone git@github.com:christophkormesser/VirtualCat-Server.git
+```
+
 Install the requirements:
 
 ```shell
-(VirtualCat-Server) VIRTUALCAT-SERVER:$ pip install -r requirements.txt
+(VirtualCat-Server) VIRTUALCAT-SERVER:$ pip3 install -r requirements.txt
 ```
 
 Then start the webserver:

@@ -1,6 +1,6 @@
 import random, socket
 from models import OledInputModel
-from client_tools import send_command
+from utils.client_tools import send_command
 from utils.wrap_stats import wrap_stats
 
 def set_mood(socket: socket.socket, stats: OledInputModel):

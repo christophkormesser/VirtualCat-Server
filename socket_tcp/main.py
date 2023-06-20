@@ -1,11 +1,11 @@
-from client_tools import establish_connection
+from models import OledInputModel
+from utils.client_tools import establish_connection
+from utils.get_pet import get_pet
 from states.startup import startup
 from states.moodsetter import set_mood
-from utils.get_pet import get_pet
 from states.show_happy import show_happy
 from states.show_angry import show_angry
 from states.show_gameover import show_gameover
-from models import OledInputModel
 
 from time import sleep
 import random

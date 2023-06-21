@@ -4,6 +4,13 @@ from utils.client_tools import send_command
 from utils.wrap_stats import wrap_stats
 
 def set_mood(socket: socket.socket, stats: OledInputModel):
+    """Calculates randomly the mood (sad/angry) and sends it to the OLED Nucleo.
+    Args:
+        socket (socket.socket): receiving socket object
+        stats (OledInputModel): Stats of the game - stats.game_mode handles display animation at Nucleo
+    Returns:
+        int: The calculated mood"""
+    
     global current_mood
     current_mood= random.randint(2, 3)
 
